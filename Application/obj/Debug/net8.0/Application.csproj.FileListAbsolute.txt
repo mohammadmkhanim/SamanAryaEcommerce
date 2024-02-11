@@ -1,0 +1,17 @@
+F:\SamanAryaEcommerce\Application\bin\Debug\net8.0\Application.deps.json
+F:\SamanAryaEcommerce\Application\bin\Debug\net8.0\Application.dll
+F:\SamanAryaEcommerce\Application\bin\Debug\net8.0\Application.pdb
+F:\SamanAryaEcommerce\Application\bin\Debug\net8.0\Domain.dll
+F:\SamanAryaEcommerce\Application\bin\Debug\net8.0\Infrastructures.dll
+F:\SamanAryaEcommerce\Application\bin\Debug\net8.0\Infrastructures.pdb
+F:\SamanAryaEcommerce\Application\bin\Debug\net8.0\Domain.pdb
+F:\SamanAryaEcommerce\Application\obj\Debug\net8.0\Application.csproj.AssemblyReference.cache
+F:\SamanAryaEcommerce\Application\obj\Debug\net8.0\Application.GeneratedMSBuildEditorConfig.editorconfig
+F:\SamanAryaEcommerce\Application\obj\Debug\net8.0\Application.AssemblyInfoInputs.cache
+F:\SamanAryaEcommerce\Application\obj\Debug\net8.0\Application.AssemblyInfo.cs
+F:\SamanAryaEcommerce\Application\obj\Debug\net8.0\Application.csproj.CoreCompileInputs.cache
+F:\SamanAryaEcommerce\Application\obj\Debug\net8.0\Application.csproj.CopyComplete
+F:\SamanAryaEcommerce\Application\obj\Debug\net8.0\Application.dll
+F:\SamanAryaEcommerce\Application\obj\Debug\net8.0\refint\Application.dll
+F:\SamanAryaEcommerce\Application\obj\Debug\net8.0\Application.pdb
+F:\SamanAryaEcommerce\Application\obj\Debug\net8.0\ref\Application.dll

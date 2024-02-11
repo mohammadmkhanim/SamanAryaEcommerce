@@ -1,7 +1,13 @@
+using Infrastructures.Context;
+using Microsoft.EntityFrameworkCore;
+
 var builder = WebApplication.CreateBuilder(args);
+var configuration = builder.Configuration;
 
 // Add services to the container.
 builder.Services.AddControllersWithViews();
+builder.Services.AddDbContext<SamanAryaEcommerceDbContext>(option =>
+         option.UseSqlServer(configuration.GetConnectionString("SamanAryaEcommerceDBConnectionString")));
 
 var app = builder.Build();
 
