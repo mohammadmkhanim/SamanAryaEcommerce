@@ -1,0 +1,31 @@
+﻿@model ProductViewModel;
+@{
+    ViewData["Title"] = "Products";
+}
+
+<div class="px-10 flex justify-center">
+    <div class="md:w-1/2 w-full mt-10">
+        <div class="bg-white shadow-md rounded px-8 pt-6 pb-8 mb-4">
+            @{
+                ImageViewModel image = new() { Name = Model.ImageName, HtmlClass = "w-14 h-14" };
+            }
+            <partial name="_ImagePartial" model="image" />
+            <div>
+                <span>@Html.DisplayNameFor(p => p.Name): </span>
+                <span>@Model.Name</span>
+            </div>
+            <div>
+                <span>@Html.DisplayNameFor(p => p.Price): </span>
+                <span>@Model.Price</span>
+            </div>
+            <div class="">
+                <p>آیا از حذف محصول مطمعن هستید؟</p>
+                <a asp-action="confirmDelete" asp-route-id="@Model.Id"
+                    class="inline-block mt-3 bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded focus:outline-none focus:shadow-outline">
+                    حذف
+                </a>
+            </div>
+        </div>
+    </div>
+
+</div>

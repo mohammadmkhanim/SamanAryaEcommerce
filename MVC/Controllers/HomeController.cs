@@ -1,20 +1,31 @@
+using System.Collections.Generic;
 using System.Diagnostics;
+using AutoMapper;
+using MediatR;
 using Microsoft.AspNetCore.Mvc;
 using MVC.Models;
+using MVC.Models.Products;
 
 namespace MVC.Controllers;
 
 public class HomeController : Controller
 {
     private readonly ILogger<HomeController> _logger;
+    private readonly IMediator _mediator;
+    private readonly IMapper _mapper;
 
-    public HomeController(ILogger<HomeController> logger)
+    public HomeController(ILogger<HomeController> logger, IMediator mediator, IMapper mapper)
     {
         _logger = logger;
+        _mediator = mediator;
+        _mapper = mapper;
     }
 
-    public IActionResult Index()
+    public async Task<IActionResult> IndexAsync()
     {
+        var result = await _mediator.Send(new Application.Products.List.Query());
+        var productViewModels = _mapper.Map<List<ProductViewModel>>(result.Value);
+        ViewBag.products = productViewModels;
         return View();
     }
 

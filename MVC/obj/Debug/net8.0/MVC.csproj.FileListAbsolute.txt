@@ -140,3 +140,12 @@ F:\SamanAryaEcommerce\MVC\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.Workspaces.
 F:\SamanAryaEcommerce\MVC\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.Workspaces.resources.dll
 F:\SamanAryaEcommerce\MVC\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.Workspaces.resources.dll
 F:\SamanAryaEcommerce\MVC\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.Workspaces.resources.dll
+F:\SamanAryaEcommerce\MVC\bin\Debug\net8.0\AutoMapper.dll
+F:\SamanAryaEcommerce\MVC\bin\Debug\net8.0\AutoMapper.Extensions.Microsoft.DependencyInjection.dll
+F:\SamanAryaEcommerce\MVC\bin\Debug\net8.0\MediatR.dll
+F:\SamanAryaEcommerce\MVC\bin\Debug\net8.0\MediatR.Contracts.dll
+F:\SamanAryaEcommerce\MVC\bin\Debug\net8.0\MediatR.Extensions.Microsoft.DependencyInjection.dll
+F:\SamanAryaEcommerce\MVC\bin\Debug\net8.0\FluentValidation.dll
+F:\SamanAryaEcommerce\MVC\bin\Debug\net8.0\FluentValidation.AspNetCore.dll
+F:\SamanAryaEcommerce\MVC\bin\Debug\net8.0\FluentValidation.DependencyInjectionExtensions.dll
+F:\SamanAryaEcommerce\MVC\obj\Debug\net8.0\MVC.MvcApplicationPartsAssemblyInfo.cs

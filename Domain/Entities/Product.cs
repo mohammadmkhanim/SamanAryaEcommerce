@@ -19,5 +19,9 @@ namespace Domain.Entities
         [Display(Name = "قیمت")]
         [Required]
         public double Price { get; set; }
+
+        [Display(Name = "عکس")]
+        [Required]
+        public string ImageName { get; set; }
     }
 }
