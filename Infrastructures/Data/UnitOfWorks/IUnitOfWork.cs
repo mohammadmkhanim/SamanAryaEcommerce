@@ -13,6 +13,7 @@ namespace Infrastructures.Data.UnitOfWorks
         IRoleRepository RoleRepository { get; }
         IUserRepository UserRepository { get; }
         IOrderDetailsRepository OrderDetailsRepository { get; }
-        Task<int> SaveChangesAsync(); 
+        IUserRoleRepository UserRoleRepository { get; }
+        Task<int> SaveChangesAsync();
     }
 }

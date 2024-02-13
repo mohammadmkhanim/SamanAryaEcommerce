@@ -6,12 +6,14 @@ using System.Threading.Tasks;
 using Application.Dtos.OrderDetails;
 using Application.Dtos.Orders;
 using Application.Dtos.Products;
+using Application.Dtos.Roles;
 using Application.Dtos.Users;
 using AutoMapper;
 using Domain.Entities;
 using MVC.Models.OrderDetails;
 using MVC.Models.Orders;
 using MVC.Models.Products;
+using MVC.Models.Roles;
 using MVC.Models.Users;
 namespace MVC.Services
 {
@@ -38,6 +40,8 @@ namespace MVC.Services
             CreateMap<OrderViewModel, OrderDto>().ReverseMap();
 
             CreateMap<OrderDetailViewModel, OrderDetailDto>().ReverseMap();
+
+            CreateMap<RoleViewModel, RoleDto>().ReverseMap();
         }
     }
 }

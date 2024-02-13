@@ -4,14 +4,14 @@
     "F:\\SamanAryaEcommerce\\mvc\\MVC.csproj": {}
   },
   "projects": {
-    "F:\\SamanAryaEcommerce\\Application\\Application.csproj": {
+    "f:\\SamanAryaEcommerce\\Application\\Application.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "F:\\SamanAryaEcommerce\\Application\\Application.csproj",
+        "projectUniqueName": "f:\\SamanAryaEcommerce\\Application\\Application.csproj",
         "projectName": "Application",
-        "projectPath": "F:\\SamanAryaEcommerce\\Application\\Application.csproj",
+        "projectPath": "f:\\SamanAryaEcommerce\\Application\\Application.csproj",
         "packagesPath": "C:\\Users\\moham\\.nuget\\packages\\",
-        "outputPath": "F:\\SamanAryaEcommerce\\Application\\obj\\",
+        "outputPath": "f:\\SamanAryaEcommerce\\Application\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\moham\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -231,8 +231,8 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "F:\\SamanAryaEcommerce\\Application\\Application.csproj": {
-                "projectPath": "F:\\SamanAryaEcommerce\\Application\\Application.csproj"
+              "f:\\SamanAryaEcommerce\\Application\\Application.csproj": {
+                "projectPath": "f:\\SamanAryaEcommerce\\Application\\Application.csproj"
               },
               "F:\\SamanAryaEcommerce\\Infrastructures\\Infrastructures.csproj": {
                 "projectPath": "F:\\SamanAryaEcommerce\\Infrastructures\\Infrastructures.csproj"

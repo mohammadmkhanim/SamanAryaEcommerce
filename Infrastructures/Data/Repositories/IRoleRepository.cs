@@ -8,7 +8,7 @@ namespace Infrastructures.Data.Repositories
 {
     public interface IRoleRepository
     {
-        // Task<Product> GetByIdAsync(int id);
+        Task<Role> GetByNameAsync(string name);
         // Task<List<Product>> GetAllAsync();
         // Task<List<Product>> GetAllAsync(int[] ids);
         Task AddAsync(Role role);

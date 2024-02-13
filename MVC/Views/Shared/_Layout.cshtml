@@ -41,15 +41,36 @@
                                 <a asp-controller="home" asp-action="index"
                                     class="bg-gray-900 !text-white rounded-md px-3 py-2 text-sm font-medium ml-2">صفحه
                                     اصلی</a>
-                                <a asp-controller="products" asp-action="index"
-                                    class=" hover:bg-gray-700 !text-white rounded-md px-3 py-2 text-sm font-medium ml-2">
-                                    مدیریت محصولات</a>
-                                <a asp-controller="orders" asp-action="index"
-                                    class=" hover:bg-gray-700 !text-white rounded-md px-3 py-2 text-sm font-medium ml-2">
-                                    مدیریت سفارشات</a>
-                                <a asp-controller="users" asp-action="index"
-                                    class=" hover:bg-gray-700 !text-white rounded-md px-3 py-2 text-sm font-medium ml-2">
-                                    مدیریت کاربران</a>
+                                @if (User.IsInRole("Admin") || User.IsInRole("SuperAdmin"))
+                                {
+                                    <a asp-controller="products" asp-action="index"
+                                        class=" hover:bg-gray-700 !text-white rounded-md px-3 py-2 text-sm font-medium ml-2">
+                                        مدیریت محصولات</a>
+                                    <a asp-controller="orders" asp-action="index"
+                                        class=" hover:bg-gray-700 !text-white rounded-md px-3 py-2 text-sm font-medium ml-2">
+                                        مدیریت سفارشات</a>
+                                }
+                                @if (User.IsInRole("SuperAdmin"))
+                                {
+                                    <a asp-controller="users" asp-action="index"
+                                        class=" hover:bg-gray-700 !text-white rounded-md px-3 py-2 text-sm font-medium ml-2">
+                                        مدیریت کاربران</a>
+                                }
+                                @if (User.Identity.IsAuthenticated)
+                                {
+                                    <a asp-controller="auth" asp-action="Logout"
+                                        class=" hover:bg-gray-700 !text-white rounded-md px-3 py-2 text-sm font-medium ml-2">
+                                        خروج</a>
+                                }
+                                else
+                                {
+                                    <a asp-controller="auth" asp-action="login"
+                                        class=" hover:bg-gray-700 !text-white rounded-md px-3 py-2 text-sm font-medium ml-2">
+                                        ورود</a>
+                                    <a asp-controller="auth" asp-action="register"
+                                        class=" hover:bg-gray-700 !text-white rounded-md px-3 py-2 text-sm font-medium ml-2">
+                                        ثبت نام</a>
+                                }
                             </div>
                         </div>
                     </div>

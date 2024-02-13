@@ -65,6 +65,12 @@ public class AuthController : BaseController<AuthController>
         }
     }
 
+    public async Task<IActionResult> Logout()
+    {
+        await HttpContext.SignOutAsync();
+        return RedirectToAction("index", "home");
+    }
+
     private async void LoginUser(string name, int id, List<string> roles)
     {
         var claims = new List<Claim>

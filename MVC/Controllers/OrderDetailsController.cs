@@ -12,7 +12,7 @@ using MVC.Services;
 
 namespace MVC.Controllers;
 
-[Authorize]
+[Authorize(Roles = "Admin,SuperAdmin")]
 public class OrderDetailsController : BaseController<OrderDetailsController>
 {
 

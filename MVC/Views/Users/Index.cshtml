@@ -1,10 +1,9 @@
-﻿@model IEnumerable<ProductViewModel>;
+﻿@model IEnumerable<UserViewModel>;
 @{
     ViewData["Title"] = "Products";
 }
 
 <div class="px-10">
-    <a asp-action="create" class="bg-gray-700 text-white p-2 rounded-md">افزودن</a>
     <div class="-m-1.5 overflow-x-auto mt-5">
         <div class="p-1.5 min-w-full inline-block align-middle">
             <div class="overflow-hidden">
@@ -12,35 +11,30 @@
                     <thead>
                         <tr>
                             <th scope="col" class="px-6 py-3 text-start text-xs font-medium text-gray-500 uppercase">
-                                @Html.DisplayNameFor(m => m.ImageName)</th>
-                            <th scope="col" class="px-6 py-3 text-start text-xs font-medium text-gray-500 uppercase">
-                                @Html.DisplayNameFor(m => m.Name)</th>
-                            <th scope="col" class="px-6 py-3 text-start text-xs font-medium text-gray-500 uppercase">
-                                @Html.DisplayNameFor(m => m.Price)</th>
+                                @Html.DisplayNameFor(m => m.Username)</th>
                             <th scope="col" class="px-6 py-3 text-start text-xs font-medium text-gray-500 uppercase">
                             </th>
                         </tr>
                     </thead>
                     <tbody>
-                        @foreach (var p in Model)
+                        @foreach (var u in Model)
                         {
                             <tr class="odd:bg-white even:bg-gray-100">
                                 <td class="px-6 py-4 whitespace-nowrap text-sm font-medium text-gray-800">
-                                    @{
-                                        ImageViewModel image = new() { Name = p.ImageName, HtmlClass = "w-14 h-14" };
-                                    }
-                                    <partial name="_ImagePartial" model="image" />
-                                </td>
-                                <td class="px-6 py-4 whitespace-nowrap text-sm font-medium text-gray-800">
-                                    @p.Name
-                                </td>
-                                <td class="px-6 py-4 whitespace-nowrap text-sm font-medium text-gray-800">
-                                    @p.Price
+                                    @u.Username
                                 </td>
                                 <td class="px-6 py-4 whitespace-nowrap text-sm font-medium text-gray-800">
                                     <div>
-                                        <a asp-action="edit" asp-route-id="@p.Id" class="mx-1">ویرایش</a>
-                                        <a asp-action="delete" asp-route-id="@p.Id" class="mx-1">حذف</a>
+                                        @if (u.Roles.Any(r => r.Name == "Admin"))
+                                        {
+                                            <a class="bg-blue-500 hover:bg-blue-600 px-3 py-1 rounded-md text-white"
+                                                asp-action="removeAdmin" asp-route-id="@u.Id" class="mx-1">-ادمین</a>
+                                        }
+                                        else
+                                        {
+                                            <a class="bg-blue-500 hover:bg-blue-600 px-3 py-1 rounded-md text-white"
+                                                asp-action="AddAdmin" asp-route-id="@u.Id" class="mx-1">+ادمین</a>
+                                        }
                                     </div>
                                 </td>
                             </tr>

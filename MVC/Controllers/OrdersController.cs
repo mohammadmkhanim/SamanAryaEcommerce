@@ -11,7 +11,7 @@ using MVC.Services;
 
 namespace MVC.Controllers;
 
-[Authorize]
+[Authorize(Roles = "Admin,SuperAdmin")]
 public class OrdersController : BaseController<OrdersController>
 {
 

@@ -15,10 +15,16 @@ namespace Infrastructures.Data.UnitOfWorks
         private RoleRepository _roleRepository;
         private UserRepository _userRepository;
         private OrderDetailsRepository _orderDetailsRepository;
-
+        private IUserRoleRepository _userRoleRepository;
+        
         public UnitOfWork(SamanAryaEcommerceDbContext dbContext)
         {
             _dbContext = dbContext;
+        }
+
+        public IUserRoleRepository UserRoleRepository
+        {
+            get { return _userRoleRepository ??= new UserRoleRepository(_dbContext); }
         }
 
         public IProductRepository ProductRepository

@@ -19,7 +19,7 @@ namespace Infrastructures.Data.Repositories
 
         public async Task<List<User>> GetAllAsync()
         {
-            return await _dbContext.Users.ToListAsync();
+            return await _dbContext.Users.Include(u => u.Roles).ToListAsync();
         }
 
 
