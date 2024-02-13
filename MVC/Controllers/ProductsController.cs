@@ -2,6 +2,7 @@ using System.Diagnostics;
 using Application.Products;
 using AutoMapper;
 using MediatR;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using MVC.Models;
 using MVC.Models.Products;
@@ -9,6 +10,7 @@ using MVC.Services;
 
 namespace MVC.Controllers;
 
+[Authorize(Roles = "User")]
 public class ProductsController : Controller
 {
     private readonly ILogger<ProductsController> _logger;

@@ -16,9 +16,7 @@ namespace MVC.Services
             CreateMap<CreateProductViewModel, Application.Products.Create.Command>().ReverseMap();
 
             CreateMap<EditProductViewModel, Application.Products.Edit.Command>()
-            // .ForMember(dest => dest.ImageName, opt => opt.Ignore())
             .ReverseMap();
-            // .ForMember(dest => dest.Image, opt => opt.Ignore());
 
             CreateMap<ProductViewModel, ProductDto>().ReverseMap();
             CreateMap<EditProductViewModel, ProductDto>()
@@ -26,6 +24,9 @@ namespace MVC.Services
             .ReverseMap()
             .ForMember(dest => dest.Image, opt => opt.Ignore());
 
+            CreateMap<RegisterViewModel, Application.Users.Create.Command>().ReverseMap();
+            
+            CreateMap<LoginViewModel, Application.Users.Get.Query>().ReverseMap();
         }
     }
 }

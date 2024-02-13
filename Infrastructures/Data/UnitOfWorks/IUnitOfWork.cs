@@ -9,6 +9,9 @@ namespace Infrastructures.Data.UnitOfWorks
     public interface IUnitOfWork
     {
         IProductRepository ProductRepository { get; }
-        Task<int> SaveChangesAsync();
+        IOrderRepository OrderRepository { get; }
+        IRoleRepository RoleRepository { get; }
+        IUserRepository UserRepository { get; }
+        Task<int> SaveChangesAsync(); 
     }
 }

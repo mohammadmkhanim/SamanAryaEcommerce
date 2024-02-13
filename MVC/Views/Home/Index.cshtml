@@ -2,14 +2,24 @@
     ViewData["Title"] = "Home Page";
 }
 
-<div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4">
-    @foreach (var p in ViewBag.products)
-    {
-        <div class="p-2">
-            <partial name="../Products/_CardPartial.cshtml" model="p" />
+<div>
+    <form asp-action="Post">
+        <button class="mr-3 text-lg bg-blue-500 hover:bg-blue-600 rounded-md px-3 py-1 text-white w-20 ">خرید</button>
+        <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4">
+            @foreach (var p in ViewBag.products)
+            {
+                <div class="border-2 m-2">
+                    <label for="@p.Id" class="block cursor-pointer border shadow-xl rounded-md ">
+                        <partial name="../Products/_CardPartial.cshtml" model="p" />
+                        <div class="flex justify-start items-center py-3 px-6">
+                            <input id="@p.Id" type="checkbox" name="products" value="@p.Id" class="w-5 h-5 rounded-lg">
+                            <span class="mr-2">
+                                در سبد خرید
+                            </span>
+                        </div>
+                    </label>
+                </div>
+            }
         </div>
-        <div class="p-2">
-            <partial name="../Products/_CardPartial.cshtml" model="p" />
-        </div>
-    }
+    </form>
 </div>

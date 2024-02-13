@@ -18,7 +18,6 @@ namespace Domain.Entities
 
         [Display(Name = "رمز عبور")]
         [Required]
-        [MaxLength(40)]
         public string Password { get; set; }
 
         //relations

@@ -30,9 +30,6 @@ namespace Infrastructures.Migrations
 
                     SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
 
-                    b.Property<DateTime>("DateTime")
-                        .HasColumnType("datetime2");
-
                     b.Property<int>("UserId")
                         .HasColumnType("int");
 
@@ -41,6 +38,28 @@ namespace Infrastructures.Migrations
                     b.HasIndex("UserId");
 
                     b.ToTable("Orders");
+                });
+
+            modelBuilder.Entity("Domain.Entities.OrderDetail", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
+
+                    b.Property<DateTime>("DateTime")
+                        .HasColumnType("datetime2");
+
+                    b.Property<int>("OrderId")
+                        .HasColumnType("int");
+
+                    b.HasKey("Id");
+
+                    b.HasIndex("OrderId")
+                        .IsUnique();
+
+                    b.ToTable("OrderDetails");
                 });
 
             modelBuilder.Entity("Domain.Entities.Product", b =>
@@ -59,7 +78,7 @@ namespace Infrastructures.Migrations
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
-                    b.Property<int?>("OrderId")
+                    b.Property<int?>("OrderDetailId")
                         .HasColumnType("int");
 
                     b.Property<double>("Price")
@@ -67,7 +86,7 @@ namespace Infrastructures.Migrations
 
                     b.HasKey("Id");
 
-                    b.HasIndex("OrderId");
+                    b.HasIndex("OrderDetailId");
 
                     b.ToTable("Products");
                 });
@@ -99,8 +118,7 @@ namespace Infrastructures.Migrations
 
                     b.Property<string>("Password")
                         .IsRequired()
-                        .HasMaxLength(40)
-                        .HasColumnType("nvarchar(40)");
+                        .HasColumnType("nvarchar(max)");
 
                     b.Property<string>("Username")
                         .IsRequired()
@@ -146,11 +164,22 @@ namespace Infrastructures.Migrations
                     b.Navigation("User");
                 });
 
+            modelBuilder.Entity("Domain.Entities.OrderDetail", b =>
+                {
+                    b.HasOne("Domain.Entities.Order", "Order")
+                        .WithOne("OrderDetail")
+                        .HasForeignKey("Domain.Entities.OrderDetail", "OrderId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.Navigation("Order");
+                });
+
             modelBuilder.Entity("Domain.Entities.Product", b =>
                 {
-                    b.HasOne("Domain.Entities.Order", null)
+                    b.HasOne("Domain.Entities.OrderDetail", null)
                         .WithMany("Products")
-                        .HasForeignKey("OrderId");
+                        .HasForeignKey("OrderDetailId");
                 });
 
             modelBuilder.Entity("Domain.Entities.UserRole", b =>
@@ -173,6 +202,12 @@ namespace Infrastructures.Migrations
                 });
 
             modelBuilder.Entity("Domain.Entities.Order", b =>
+                {
+                    b.Navigation("OrderDetail")
+                        .IsRequired();
+                });
+
+            modelBuilder.Entity("Domain.Entities.OrderDetail", b =>
                 {
                     b.Navigation("Products");
                 });

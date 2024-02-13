@@ -12,15 +12,11 @@ namespace Domain.Entities
         [Key]
         public int Id { get; set; }
 
-        [Display(Name = "تاریخ")]
-        [Required]
-        public DateTime DateTime { get; set; }
-
         //relations
         [ForeignKey(nameof(User))]
         public int UserId { get; set; }
         public User User { get; set; }
 
-        public List<Product> Products { get; set; }
+        public OrderDetail OrderDetail { get; set; }
     }
 }

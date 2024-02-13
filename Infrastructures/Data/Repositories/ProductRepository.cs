@@ -31,9 +31,15 @@ namespace Infrastructures.Data.Repositories
             }
         }
 
-        public async Task<IEnumerable<Product>> GetAllAsync()
+        public async Task<List<Product>> GetAllAsync()
         {
             return await _dbContext.Products.ToListAsync();
+        }
+
+        public async Task<List<Product>> GetAllAsync(int[] ids)
+        {
+            var products = await _dbContext.Products.Where(p => ids.Contains(p.Id)).ToListAsync();
+            return products;
         }
 
         public async Task<Product> GetByIdAsync(int id)

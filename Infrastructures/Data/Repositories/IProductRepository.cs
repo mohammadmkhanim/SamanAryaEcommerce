@@ -9,7 +9,8 @@ namespace Infrastructures.Data.Repositories
     public interface IProductRepository
     {
         Task<Product> GetByIdAsync(int id);
-        Task<IEnumerable<Product>> GetAllAsync();
+        Task<List<Product>> GetAllAsync();
+        Task<List<Product>> GetAllAsync(int[] ids);
         Task AddAsync(Product product);
         void Update(Product product);
         Task DeleteAsync(int id);

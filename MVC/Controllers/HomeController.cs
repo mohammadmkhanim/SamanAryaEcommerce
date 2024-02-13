@@ -29,6 +29,16 @@ public class HomeController : Controller
         return View();
     }
 
+    [HttpPost]
+    public async Task<IActionResult> PostAsync(Test test)
+    {
+        var result = await _mediator.Send(new Application.Products.List.Query());
+        var productViewModels = _mapper.Map<List<ProductViewModel>>(result.Value);
+        ViewBag.products = productViewModels;
+        return RedirectToAction("index");
+    }
+
+
     public IActionResult Privacy()
     {
         return View();

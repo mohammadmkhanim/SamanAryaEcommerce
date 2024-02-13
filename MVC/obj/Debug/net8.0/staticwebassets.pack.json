@@ -37,6 +37,14 @@
       "PackagePath": "staticwebassets\\Images\\39fdd2c541d24402af8d540943d48f4c.jpg"
     },
     {
+      "Id": "F:\\SamanAryaEcommerce\\MVC\\wwwroot\\Images\\3af232561a9c448faddf1275c763d664.jpg",
+      "PackagePath": "staticwebassets\\Images\\3af232561a9c448faddf1275c763d664.jpg"
+    },
+    {
+      "Id": "F:\\SamanAryaEcommerce\\MVC\\wwwroot\\Images\\4811326b2b964d0c80feb75bbc5725b7.jpg",
+      "PackagePath": "staticwebassets\\Images\\4811326b2b964d0c80feb75bbc5725b7.jpg"
+    },
+    {
       "Id": "F:\\SamanAryaEcommerce\\MVC\\wwwroot\\Images\\62319ac8e4854a93bf5ee054d8160dcb.png",
       "PackagePath": "staticwebassets\\Images\\62319ac8e4854a93bf5ee054d8160dcb.png"
     },
@@ -55,6 +63,10 @@
     {
       "Id": "F:\\SamanAryaEcommerce\\MVC\\wwwroot\\Images\\850b4ac96c0a4ccba227c93fbd002cec.png",
       "PackagePath": "staticwebassets\\Images\\850b4ac96c0a4ccba227c93fbd002cec.png"
+    },
+    {
+      "Id": "F:\\SamanAryaEcommerce\\MVC\\wwwroot\\Images\\9c33a7ea52864e2eaf35f8829fd572a0.png",
+      "PackagePath": "staticwebassets\\Images\\9c33a7ea52864e2eaf35f8829fd572a0.png"
     },
     {
       "Id": "F:\\SamanAryaEcommerce\\MVC\\wwwroot\\Images\\ad80919ad1014cd8b43919c99a9b21ef.png",
@@ -79,6 +91,10 @@
     {
       "Id": "F:\\SamanAryaEcommerce\\MVC\\wwwroot\\Images\\e3d55ab86d3a4f06912423f6649be3e3.png",
       "PackagePath": "staticwebassets\\Images\\e3d55ab86d3a4f06912423f6649be3e3.png"
+    },
+    {
+      "Id": "F:\\SamanAryaEcommerce\\MVC\\wwwroot\\Images\\f7824f26b15b4e3eaacde90a1c35f293.png",
+      "PackagePath": "staticwebassets\\Images\\f7824f26b15b4e3eaacde90a1c35f293.png"
     },
     {
       "Id": "F:\\SamanAryaEcommerce\\MVC\\wwwroot\\Images\\ffa039b11ff94f0ca2249967df031c42.png",

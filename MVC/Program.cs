@@ -6,6 +6,7 @@ using FluentValidation.AspNetCore;
 using Infrastructures.Context;
 using Infrastructures.Data.UnitOfWorks;
 using MediatR;
+using Microsoft.AspNetCore.Authentication.Cookies;
 using Microsoft.EntityFrameworkCore;
 
 var builder = WebApplication.CreateBuilder(args);
@@ -17,31 +18,43 @@ builder.Services.AddAutoMapper(typeof(MappingService));
 builder.Services.AddScoped<IUnitOfWork, UnitOfWork>();
 builder.Services.AddMediatR(typeof(Create));
 builder.Services.AddControllersWithViews();
-// .AddFluentValidation(fv => fv.RegisterValidatorsFromAssemblyContaining<CreateCommandValidator>());
-// builder.Services.AddFluentValidationAutoValidation().AddFluentValidationClientsideAdapters();
 builder.Services.AddValidatorsFromAssemblyContaining<CreateCommandValidator>();
 
-// builder.Services.AddControllersWithViews()
-//         .AddFluentValidation(fv => fv.RegisterValidatorsFromAssemblyContaining<Program>());
-// builder.Services.AddFluentValidationAutoValidation().AddFluentValidationClientsideAdapters();
 builder.Services.AddDbContext<SamanAryaEcommerceDbContext>(option =>
          option.UseSqlServer(configuration.GetConnectionString("SamanAryaEcommerceDBConnectionString")));
 
+builder.Services.AddAuthentication(CookieAuthenticationDefaults.AuthenticationScheme)
+    .AddCookie(options =>
+{
+    options.SlidingExpiration = true;
+    options.LoginPath = "/Auth/Login";
+    options.LogoutPath = "/Auth/Logout";
+    options.AccessDeniedPath = "/Auth/Login";
+});
+
 var app = builder.Build();
 
-// Configure the HTTP request pipeline.
+using (var scope = app.Services.CreateScope())
+{
+    var mediator = scope.ServiceProvider.GetRequiredService<IMediator>();
+    var res = await mediator.Send(new Application.Roles.ExistAny.Query());
+    if (!res.Value)
+    {
+        await mediator.Send(new Application.Roles.SeedRoles.Command() { Names = new() { "SuperAdmin", "Admin", "User" } });
+    }
+}
+
 if (!app.Environment.IsDevelopment())
 {
     app.UseExceptionHandler("/Home/Error");
-    // The default HSTS value is 30 days. You may want to change this for production scenarios, see https://aka.ms/aspnetcore-hsts.
     app.UseHsts();
 }
 
 app.UseHttpsRedirection();
 app.UseStaticFiles();
 
+app.UseAuthentication();
 app.UseRouting();
-
 app.UseAuthorization();
 
 app.MapControllerRoute(
