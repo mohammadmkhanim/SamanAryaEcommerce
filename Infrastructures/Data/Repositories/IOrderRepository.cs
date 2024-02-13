@@ -9,7 +9,7 @@ namespace Infrastructures.Data.Repositories
     public interface IOrderRepository
     {
         // Task<Product> GetByIdAsync(int id);
-        // Task<List<Product>> GetAllAsync();
+        Task<List<Order>> GetAllAsync();
         // Task<List<Product>> GetAllAsync(int[] ids);
         Task AddAsync(Order order);
         // void Update(Product product);

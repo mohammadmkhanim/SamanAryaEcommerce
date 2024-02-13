@@ -1,4 +1,5 @@
 using System.Diagnostics;
+using System.Security.Claims;
 using Application.Products;
 using AutoMapper;
 using MediatR;
@@ -10,19 +11,14 @@ using MVC.Services;
 
 namespace MVC.Controllers;
 
-[Authorize(Roles = "User")]
-public class ProductsController : Controller
+[Authorize(Roles = "Admin,SuperAdmin")]
+public class ProductsController : BaseController<ProductsController>
 {
-    private readonly ILogger<ProductsController> _logger;
-    private readonly IMediator _mediator;
-    private readonly IMapper _mapper;
-
-    public ProductsController(ILogger<ProductsController> logger, IMediator mediator, IMapper mapper)
-    {
-        _logger = logger;
-        _mediator = mediator;
-        _mapper = mapper;
-    }
+    public ProductsController(
+                              ILogger<ProductsController> logger,
+                              IMediator mediator,
+                              IMapper mapper
+                              ) : base(logger, mediator, mapper) { }
 
     public async Task<IActionResult> IndexAsync()
     {

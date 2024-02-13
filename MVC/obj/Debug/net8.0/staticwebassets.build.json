@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "KnQdlHCI1KeaViKow+O8iTGAz0PGx5Q/slPqE5VSHNc=",
+  "Hash": "GiMoN6ZPyyQvPrzVa9YeaRuY+rlf2HiYhNgQb90dLrg=",
   "Source": "MVC",
   "BasePath": "_content/MVC",
   "Mode": "Default",
@@ -10,17 +10,17 @@
     {
       "Name": "MVC\\wwwroot",
       "Source": "MVC",
-      "ContentRoot": "F:\\SamanAryaEcommerce\\MVC\\wwwroot\\",
+      "ContentRoot": "F:\\SamanAryaEcommerce\\mvc\\wwwroot\\",
       "BasePath": "_content/MVC",
       "Pattern": "**"
     }
   ],
   "Assets": [
     {
-      "Identity": "F:\\SamanAryaEcommerce\\MVC\\obj\\Debug\\net8.0\\scopedcss\\bundle\\MVC.styles.css",
+      "Identity": "F:\\SamanAryaEcommerce\\mvc\\obj\\Debug\\net8.0\\scopedcss\\bundle\\MVC.styles.css",
       "SourceId": "MVC",
       "SourceType": "Computed",
-      "ContentRoot": "F:\\SamanAryaEcommerce\\MVC\\obj\\Debug\\net8.0\\scopedcss\\bundle\\",
+      "ContentRoot": "F:\\SamanAryaEcommerce\\mvc\\obj\\Debug\\net8.0\\scopedcss\\bundle\\",
       "BasePath": "_content/MVC",
       "RelativePath": "MVC.styles.css",
       "AssetKind": "All",
@@ -33,13 +33,13 @@
       "AssetTraitValue": "ApplicationBundle",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "F:\\SamanAryaEcommerce\\MVC\\obj\\Debug\\net8.0\\scopedcss\\bundle\\MVC.styles.css"
+      "OriginalItemSpec": "F:\\SamanAryaEcommerce\\mvc\\obj\\Debug\\net8.0\\scopedcss\\bundle\\MVC.styles.css"
     },
     {
-      "Identity": "F:\\SamanAryaEcommerce\\MVC\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\MVC.bundle.scp.css",
+      "Identity": "F:\\SamanAryaEcommerce\\mvc\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\MVC.bundle.scp.css",
       "SourceId": "MVC",
       "SourceType": "Computed",
-      "ContentRoot": "F:\\SamanAryaEcommerce\\MVC\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\",
+      "ContentRoot": "F:\\SamanAryaEcommerce\\mvc\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\",
       "BasePath": "_content/MVC",
       "RelativePath": "MVC.bundle.scp.css",
       "AssetKind": "All",
@@ -52,13 +52,13 @@
       "AssetTraitValue": "ProjectBundle",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "F:\\SamanAryaEcommerce\\MVC\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\MVC.bundle.scp.css"
+      "OriginalItemSpec": "F:\\SamanAryaEcommerce\\mvc\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\MVC.bundle.scp.css"
     },
     {
-      "Identity": "F:\\SamanAryaEcommerce\\MVC\\wwwroot\\css\\site.css",
+      "Identity": "F:\\SamanAryaEcommerce\\mvc\\wwwroot\\css\\site.css",
       "SourceId": "MVC",
       "SourceType": "Discovered",
-      "ContentRoot": "F:\\SamanAryaEcommerce\\MVC\\wwwroot\\",
+      "ContentRoot": "F:\\SamanAryaEcommerce\\mvc\\wwwroot\\",
       "BasePath": "_content/MVC",
       "RelativePath": "css/site.css",
       "AssetKind": "All",
@@ -74,10 +74,10 @@
       "OriginalItemSpec": "wwwroot\\css\\site.css"
     },
     {
-      "Identity": "F:\\SamanAryaEcommerce\\MVC\\wwwroot\\favicon.ico",
+      "Identity": "F:\\SamanAryaEcommerce\\mvc\\wwwroot\\favicon.ico",
       "SourceId": "MVC",
       "SourceType": "Discovered",
-      "ContentRoot": "F:\\SamanAryaEcommerce\\MVC\\wwwroot\\",
+      "ContentRoot": "F:\\SamanAryaEcommerce\\mvc\\wwwroot\\",
       "BasePath": "_content/MVC",
       "RelativePath": "favicon.ico",
       "AssetKind": "All",
@@ -93,10 +93,10 @@
       "OriginalItemSpec": "wwwroot\\favicon.ico"
     },
     {
-      "Identity": "F:\\SamanAryaEcommerce\\MVC\\wwwroot\\Images\\0d4a46dc237f4ad596d4584833efe6f9.png",
+      "Identity": "F:\\SamanAryaEcommerce\\mvc\\wwwroot\\Images\\0d4a46dc237f4ad596d4584833efe6f9.png",
       "SourceId": "MVC",
       "SourceType": "Discovered",
-      "ContentRoot": "F:\\SamanAryaEcommerce\\MVC\\wwwroot\\",
+      "ContentRoot": "F:\\SamanAryaEcommerce\\mvc\\wwwroot\\",
       "BasePath": "_content/MVC",
       "RelativePath": "Images/0d4a46dc237f4ad596d4584833efe6f9.png",
       "AssetKind": "All",
@@ -112,10 +112,10 @@
       "OriginalItemSpec": "wwwroot\\Images\\0d4a46dc237f4ad596d4584833efe6f9.png"
     },
     {
-      "Identity": "F:\\SamanAryaEcommerce\\MVC\\wwwroot\\Images\\0d8decea4b8a40e296ff5e05f175d1fe.png",
+      "Identity": "F:\\SamanAryaEcommerce\\mvc\\wwwroot\\Images\\0d8decea4b8a40e296ff5e05f175d1fe.png",
       "SourceId": "MVC",
       "SourceType": "Discovered",
-      "ContentRoot": "F:\\SamanAryaEcommerce\\MVC\\wwwroot\\",
+      "ContentRoot": "F:\\SamanAryaEcommerce\\mvc\\wwwroot\\",
       "BasePath": "_content/MVC",
       "RelativePath": "Images/0d8decea4b8a40e296ff5e05f175d1fe.png",
       "AssetKind": "All",
@@ -131,10 +131,10 @@
       "OriginalItemSpec": "wwwroot\\Images\\0d8decea4b8a40e296ff5e05f175d1fe.png"
     },
     {
-      "Identity": "F:\\SamanAryaEcommerce\\MVC\\wwwroot\\Images\\0ff65ad7f8a246b39a32f6189e9f10f0.jpg",
+      "Identity": "F:\\SamanAryaEcommerce\\mvc\\wwwroot\\Images\\0ff65ad7f8a246b39a32f6189e9f10f0.jpg",
       "SourceId": "MVC",
       "SourceType": "Discovered",
-      "ContentRoot": "F:\\SamanAryaEcommerce\\MVC\\wwwroot\\",
+      "ContentRoot": "F:\\SamanAryaEcommerce\\mvc\\wwwroot\\",
       "BasePath": "_content/MVC",
       "RelativePath": "Images/0ff65ad7f8a246b39a32f6189e9f10f0.jpg",
       "AssetKind": "All",
@@ -150,10 +150,10 @@
       "OriginalItemSpec": "wwwroot\\Images\\0ff65ad7f8a246b39a32f6189e9f10f0.jpg"
     },
     {
-      "Identity": "F:\\SamanAryaEcommerce\\MVC\\wwwroot\\Images\\21a06afebc27438f85718059ebc96714.jpg",
+      "Identity": "F:\\SamanAryaEcommerce\\mvc\\wwwroot\\Images\\21a06afebc27438f85718059ebc96714.jpg",
       "SourceId": "MVC",
       "SourceType": "Discovered",
-      "ContentRoot": "F:\\SamanAryaEcommerce\\MVC\\wwwroot\\",
+      "ContentRoot": "F:\\SamanAryaEcommerce\\mvc\\wwwroot\\",
       "BasePath": "_content/MVC",
       "RelativePath": "Images/21a06afebc27438f85718059ebc96714.jpg",
       "AssetKind": "All",
@@ -169,10 +169,10 @@
       "OriginalItemSpec": "wwwroot\\Images\\21a06afebc27438f85718059ebc96714.jpg"
     },
     {
-      "Identity": "F:\\SamanAryaEcommerce\\MVC\\wwwroot\\Images\\31e701191f964b4a910334a651275b66.png",
+      "Identity": "F:\\SamanAryaEcommerce\\mvc\\wwwroot\\Images\\31e701191f964b4a910334a651275b66.png",
       "SourceId": "MVC",
       "SourceType": "Discovered",
-      "ContentRoot": "F:\\SamanAryaEcommerce\\MVC\\wwwroot\\",
+      "ContentRoot": "F:\\SamanAryaEcommerce\\mvc\\wwwroot\\",
       "BasePath": "_content/MVC",
       "RelativePath": "Images/31e701191f964b4a910334a651275b66.png",
       "AssetKind": "All",
@@ -188,10 +188,10 @@
       "OriginalItemSpec": "wwwroot\\Images\\31e701191f964b4a910334a651275b66.png"
     },
     {
-      "Identity": "F:\\SamanAryaEcommerce\\MVC\\wwwroot\\Images\\3315673509d24112a0fb10b9250d823f.png",
+      "Identity": "F:\\SamanAryaEcommerce\\mvc\\wwwroot\\Images\\3315673509d24112a0fb10b9250d823f.png",
       "SourceId": "MVC",
       "SourceType": "Discovered",
-      "ContentRoot": "F:\\SamanAryaEcommerce\\MVC\\wwwroot\\",
+      "ContentRoot": "F:\\SamanAryaEcommerce\\mvc\\wwwroot\\",
       "BasePath": "_content/MVC",
       "RelativePath": "Images/3315673509d24112a0fb10b9250d823f.png",
       "AssetKind": "All",
@@ -207,10 +207,10 @@
       "OriginalItemSpec": "wwwroot\\Images\\3315673509d24112a0fb10b9250d823f.png"
     },
     {
-      "Identity": "F:\\SamanAryaEcommerce\\MVC\\wwwroot\\Images\\372ff3cfc0934db0b4e6195197ab7155.png",
+      "Identity": "F:\\SamanAryaEcommerce\\mvc\\wwwroot\\Images\\372ff3cfc0934db0b4e6195197ab7155.png",
       "SourceId": "MVC",
       "SourceType": "Discovered",
-      "ContentRoot": "F:\\SamanAryaEcommerce\\MVC\\wwwroot\\",
+      "ContentRoot": "F:\\SamanAryaEcommerce\\mvc\\wwwroot\\",
       "BasePath": "_content/MVC",
       "RelativePath": "Images/372ff3cfc0934db0b4e6195197ab7155.png",
       "AssetKind": "All",
@@ -226,10 +226,10 @@
       "OriginalItemSpec": "wwwroot\\Images\\372ff3cfc0934db0b4e6195197ab7155.png"
     },
     {
-      "Identity": "F:\\SamanAryaEcommerce\\MVC\\wwwroot\\Images\\39fdd2c541d24402af8d540943d48f4c.jpg",
+      "Identity": "F:\\SamanAryaEcommerce\\mvc\\wwwroot\\Images\\39fdd2c541d24402af8d540943d48f4c.jpg",
       "SourceId": "MVC",
       "SourceType": "Discovered",
-      "ContentRoot": "F:\\SamanAryaEcommerce\\MVC\\wwwroot\\",
+      "ContentRoot": "F:\\SamanAryaEcommerce\\mvc\\wwwroot\\",
       "BasePath": "_content/MVC",
       "RelativePath": "Images/39fdd2c541d24402af8d540943d48f4c.jpg",
       "AssetKind": "All",
@@ -245,10 +245,10 @@
       "OriginalItemSpec": "wwwroot\\Images\\39fdd2c541d24402af8d540943d48f4c.jpg"
     },
     {
-      "Identity": "F:\\SamanAryaEcommerce\\MVC\\wwwroot\\Images\\3af232561a9c448faddf1275c763d664.jpg",
+      "Identity": "F:\\SamanAryaEcommerce\\mvc\\wwwroot\\Images\\3af232561a9c448faddf1275c763d664.jpg",
       "SourceId": "MVC",
       "SourceType": "Discovered",
-      "ContentRoot": "F:\\SamanAryaEcommerce\\MVC\\wwwroot\\",
+      "ContentRoot": "F:\\SamanAryaEcommerce\\mvc\\wwwroot\\",
       "BasePath": "_content/MVC",
       "RelativePath": "Images/3af232561a9c448faddf1275c763d664.jpg",
       "AssetKind": "All",
@@ -264,10 +264,10 @@
       "OriginalItemSpec": "wwwroot\\Images\\3af232561a9c448faddf1275c763d664.jpg"
     },
     {
-      "Identity": "F:\\SamanAryaEcommerce\\MVC\\wwwroot\\Images\\4811326b2b964d0c80feb75bbc5725b7.jpg",
+      "Identity": "F:\\SamanAryaEcommerce\\mvc\\wwwroot\\Images\\4811326b2b964d0c80feb75bbc5725b7.jpg",
       "SourceId": "MVC",
       "SourceType": "Discovered",
-      "ContentRoot": "F:\\SamanAryaEcommerce\\MVC\\wwwroot\\",
+      "ContentRoot": "F:\\SamanAryaEcommerce\\mvc\\wwwroot\\",
       "BasePath": "_content/MVC",
       "RelativePath": "Images/4811326b2b964d0c80feb75bbc5725b7.jpg",
       "AssetKind": "All",
@@ -283,10 +283,10 @@
       "OriginalItemSpec": "wwwroot\\Images\\4811326b2b964d0c80feb75bbc5725b7.jpg"
     },
     {
-      "Identity": "F:\\SamanAryaEcommerce\\MVC\\wwwroot\\Images\\62319ac8e4854a93bf5ee054d8160dcb.png",
+      "Identity": "F:\\SamanAryaEcommerce\\mvc\\wwwroot\\Images\\62319ac8e4854a93bf5ee054d8160dcb.png",
       "SourceId": "MVC",
       "SourceType": "Discovered",
-      "ContentRoot": "F:\\SamanAryaEcommerce\\MVC\\wwwroot\\",
+      "ContentRoot": "F:\\SamanAryaEcommerce\\mvc\\wwwroot\\",
       "BasePath": "_content/MVC",
       "RelativePath": "Images/62319ac8e4854a93bf5ee054d8160dcb.png",
       "AssetKind": "All",
@@ -302,10 +302,10 @@
       "OriginalItemSpec": "wwwroot\\Images\\62319ac8e4854a93bf5ee054d8160dcb.png"
     },
     {
-      "Identity": "F:\\SamanAryaEcommerce\\MVC\\wwwroot\\Images\\68634174c9f043fda95a5ea0d855fa54.png",
+      "Identity": "F:\\SamanAryaEcommerce\\mvc\\wwwroot\\Images\\68634174c9f043fda95a5ea0d855fa54.png",
       "SourceId": "MVC",
       "SourceType": "Discovered",
-      "ContentRoot": "F:\\SamanAryaEcommerce\\MVC\\wwwroot\\",
+      "ContentRoot": "F:\\SamanAryaEcommerce\\mvc\\wwwroot\\",
       "BasePath": "_content/MVC",
       "RelativePath": "Images/68634174c9f043fda95a5ea0d855fa54.png",
       "AssetKind": "All",
@@ -321,10 +321,10 @@
       "OriginalItemSpec": "wwwroot\\Images\\68634174c9f043fda95a5ea0d855fa54.png"
     },
     {
-      "Identity": "F:\\SamanAryaEcommerce\\MVC\\wwwroot\\Images\\7f5f96d7481046899d700acbf145d82a.png",
+      "Identity": "F:\\SamanAryaEcommerce\\mvc\\wwwroot\\Images\\7f5f96d7481046899d700acbf145d82a.png",
       "SourceId": "MVC",
       "SourceType": "Discovered",
-      "ContentRoot": "F:\\SamanAryaEcommerce\\MVC\\wwwroot\\",
+      "ContentRoot": "F:\\SamanAryaEcommerce\\mvc\\wwwroot\\",
       "BasePath": "_content/MVC",
       "RelativePath": "Images/7f5f96d7481046899d700acbf145d82a.png",
       "AssetKind": "All",
@@ -340,10 +340,10 @@
       "OriginalItemSpec": "wwwroot\\Images\\7f5f96d7481046899d700acbf145d82a.png"
     },
     {
-      "Identity": "F:\\SamanAryaEcommerce\\MVC\\wwwroot\\Images\\83f29d1a01344490a7cef5b503f0b728.png",
+      "Identity": "F:\\SamanAryaEcommerce\\mvc\\wwwroot\\Images\\83f29d1a01344490a7cef5b503f0b728.png",
       "SourceId": "MVC",
       "SourceType": "Discovered",
-      "ContentRoot": "F:\\SamanAryaEcommerce\\MVC\\wwwroot\\",
+      "ContentRoot": "F:\\SamanAryaEcommerce\\mvc\\wwwroot\\",
       "BasePath": "_content/MVC",
       "RelativePath": "Images/83f29d1a01344490a7cef5b503f0b728.png",
       "AssetKind": "All",
@@ -359,10 +359,10 @@
       "OriginalItemSpec": "wwwroot\\Images\\83f29d1a01344490a7cef5b503f0b728.png"
     },
     {
-      "Identity": "F:\\SamanAryaEcommerce\\MVC\\wwwroot\\Images\\850b4ac96c0a4ccba227c93fbd002cec.png",
+      "Identity": "F:\\SamanAryaEcommerce\\mvc\\wwwroot\\Images\\850b4ac96c0a4ccba227c93fbd002cec.png",
       "SourceId": "MVC",
       "SourceType": "Discovered",
-      "ContentRoot": "F:\\SamanAryaEcommerce\\MVC\\wwwroot\\",
+      "ContentRoot": "F:\\SamanAryaEcommerce\\mvc\\wwwroot\\",
       "BasePath": "_content/MVC",
       "RelativePath": "Images/850b4ac96c0a4ccba227c93fbd002cec.png",
       "AssetKind": "All",
@@ -378,10 +378,10 @@
       "OriginalItemSpec": "wwwroot\\Images\\850b4ac96c0a4ccba227c93fbd002cec.png"
     },
     {
-      "Identity": "F:\\SamanAryaEcommerce\\MVC\\wwwroot\\Images\\9c33a7ea52864e2eaf35f8829fd572a0.png",
+      "Identity": "F:\\SamanAryaEcommerce\\mvc\\wwwroot\\Images\\9c33a7ea52864e2eaf35f8829fd572a0.png",
       "SourceId": "MVC",
       "SourceType": "Discovered",
-      "ContentRoot": "F:\\SamanAryaEcommerce\\MVC\\wwwroot\\",
+      "ContentRoot": "F:\\SamanAryaEcommerce\\mvc\\wwwroot\\",
       "BasePath": "_content/MVC",
       "RelativePath": "Images/9c33a7ea52864e2eaf35f8829fd572a0.png",
       "AssetKind": "All",
@@ -397,10 +397,10 @@
       "OriginalItemSpec": "wwwroot\\Images\\9c33a7ea52864e2eaf35f8829fd572a0.png"
     },
     {
-      "Identity": "F:\\SamanAryaEcommerce\\MVC\\wwwroot\\Images\\ad80919ad1014cd8b43919c99a9b21ef.png",
+      "Identity": "F:\\SamanAryaEcommerce\\mvc\\wwwroot\\Images\\ad80919ad1014cd8b43919c99a9b21ef.png",
       "SourceId": "MVC",
       "SourceType": "Discovered",
-      "ContentRoot": "F:\\SamanAryaEcommerce\\MVC\\wwwroot\\",
+      "ContentRoot": "F:\\SamanAryaEcommerce\\mvc\\wwwroot\\",
       "BasePath": "_content/MVC",
       "RelativePath": "Images/ad80919ad1014cd8b43919c99a9b21ef.png",
       "AssetKind": "All",
@@ -416,10 +416,10 @@
       "OriginalItemSpec": "wwwroot\\Images\\ad80919ad1014cd8b43919c99a9b21ef.png"
     },
     {
-      "Identity": "F:\\SamanAryaEcommerce\\MVC\\wwwroot\\Images\\ade842748a074c71a2fbdccef1913a4f.png",
+      "Identity": "F:\\SamanAryaEcommerce\\mvc\\wwwroot\\Images\\ade842748a074c71a2fbdccef1913a4f.png",
       "SourceId": "MVC",
       "SourceType": "Discovered",
-      "ContentRoot": "F:\\SamanAryaEcommerce\\MVC\\wwwroot\\",
+      "ContentRoot": "F:\\SamanAryaEcommerce\\mvc\\wwwroot\\",
       "BasePath": "_content/MVC",
       "RelativePath": "Images/ade842748a074c71a2fbdccef1913a4f.png",
       "AssetKind": "All",
@@ -435,10 +435,10 @@
       "OriginalItemSpec": "wwwroot\\Images\\ade842748a074c71a2fbdccef1913a4f.png"
     },
     {
-      "Identity": "F:\\SamanAryaEcommerce\\MVC\\wwwroot\\Images\\bc24c92a95a14d02941b7cb4acf9258f.png",
+      "Identity": "F:\\SamanAryaEcommerce\\mvc\\wwwroot\\Images\\bc24c92a95a14d02941b7cb4acf9258f.png",
       "SourceId": "MVC",
       "SourceType": "Discovered",
-      "ContentRoot": "F:\\SamanAryaEcommerce\\MVC\\wwwroot\\",
+      "ContentRoot": "F:\\SamanAryaEcommerce\\mvc\\wwwroot\\",
       "BasePath": "_content/MVC",
       "RelativePath": "Images/bc24c92a95a14d02941b7cb4acf9258f.png",
       "AssetKind": "All",
@@ -454,10 +454,10 @@
       "OriginalItemSpec": "wwwroot\\Images\\bc24c92a95a14d02941b7cb4acf9258f.png"
     },
     {
-      "Identity": "F:\\SamanAryaEcommerce\\MVC\\wwwroot\\Images\\d4f0b7a5588744a6b987f0dbec25813d.png",
+      "Identity": "F:\\SamanAryaEcommerce\\mvc\\wwwroot\\Images\\d4f0b7a5588744a6b987f0dbec25813d.png",
       "SourceId": "MVC",
       "SourceType": "Discovered",
-      "ContentRoot": "F:\\SamanAryaEcommerce\\MVC\\wwwroot\\",
+      "ContentRoot": "F:\\SamanAryaEcommerce\\mvc\\wwwroot\\",
       "BasePath": "_content/MVC",
       "RelativePath": "Images/d4f0b7a5588744a6b987f0dbec25813d.png",
       "AssetKind": "All",
@@ -473,10 +473,10 @@
       "OriginalItemSpec": "wwwroot\\Images\\d4f0b7a5588744a6b987f0dbec25813d.png"
     },
     {
-      "Identity": "F:\\SamanAryaEcommerce\\MVC\\wwwroot\\Images\\d748d4752271437ba9e6dbcba43c5bc2.png",
+      "Identity": "F:\\SamanAryaEcommerce\\mvc\\wwwroot\\Images\\d748d4752271437ba9e6dbcba43c5bc2.png",
       "SourceId": "MVC",
       "SourceType": "Discovered",
-      "ContentRoot": "F:\\SamanAryaEcommerce\\MVC\\wwwroot\\",
+      "ContentRoot": "F:\\SamanAryaEcommerce\\mvc\\wwwroot\\",
       "BasePath": "_content/MVC",
       "RelativePath": "Images/d748d4752271437ba9e6dbcba43c5bc2.png",
       "AssetKind": "All",
@@ -492,10 +492,10 @@
       "OriginalItemSpec": "wwwroot\\Images\\d748d4752271437ba9e6dbcba43c5bc2.png"
     },
     {
-      "Identity": "F:\\SamanAryaEcommerce\\MVC\\wwwroot\\Images\\e3d55ab86d3a4f06912423f6649be3e3.png",
+      "Identity": "F:\\SamanAryaEcommerce\\mvc\\wwwroot\\Images\\e3d55ab86d3a4f06912423f6649be3e3.png",
       "SourceId": "MVC",
       "SourceType": "Discovered",
-      "ContentRoot": "F:\\SamanAryaEcommerce\\MVC\\wwwroot\\",
+      "ContentRoot": "F:\\SamanAryaEcommerce\\mvc\\wwwroot\\",
       "BasePath": "_content/MVC",
       "RelativePath": "Images/e3d55ab86d3a4f06912423f6649be3e3.png",
       "AssetKind": "All",
@@ -511,10 +511,10 @@
       "OriginalItemSpec": "wwwroot\\Images\\e3d55ab86d3a4f06912423f6649be3e3.png"
     },
     {
-      "Identity": "F:\\SamanAryaEcommerce\\MVC\\wwwroot\\Images\\f7824f26b15b4e3eaacde90a1c35f293.png",
+      "Identity": "F:\\SamanAryaEcommerce\\mvc\\wwwroot\\Images\\f7824f26b15b4e3eaacde90a1c35f293.png",
       "SourceId": "MVC",
       "SourceType": "Discovered",
-      "ContentRoot": "F:\\SamanAryaEcommerce\\MVC\\wwwroot\\",
+      "ContentRoot": "F:\\SamanAryaEcommerce\\mvc\\wwwroot\\",
       "BasePath": "_content/MVC",
       "RelativePath": "Images/f7824f26b15b4e3eaacde90a1c35f293.png",
       "AssetKind": "All",
@@ -530,10 +530,10 @@
       "OriginalItemSpec": "wwwroot\\Images\\f7824f26b15b4e3eaacde90a1c35f293.png"
     },
     {
-      "Identity": "F:\\SamanAryaEcommerce\\MVC\\wwwroot\\Images\\ffa039b11ff94f0ca2249967df031c42.png",
+      "Identity": "F:\\SamanAryaEcommerce\\mvc\\wwwroot\\Images\\ffa039b11ff94f0ca2249967df031c42.png",
       "SourceId": "MVC",
       "SourceType": "Discovered",
-      "ContentRoot": "F:\\SamanAryaEcommerce\\MVC\\wwwroot\\",
+      "ContentRoot": "F:\\SamanAryaEcommerce\\mvc\\wwwroot\\",
       "BasePath": "_content/MVC",
       "RelativePath": "Images/ffa039b11ff94f0ca2249967df031c42.png",
       "AssetKind": "All",
@@ -549,10 +549,10 @@
       "OriginalItemSpec": "wwwroot\\Images\\ffa039b11ff94f0ca2249967df031c42.png"
     },
     {
-      "Identity": "F:\\SamanAryaEcommerce\\MVC\\wwwroot\\js\\site.js",
+      "Identity": "F:\\SamanAryaEcommerce\\mvc\\wwwroot\\js\\site.js",
       "SourceId": "MVC",
       "SourceType": "Discovered",
-      "ContentRoot": "F:\\SamanAryaEcommerce\\MVC\\wwwroot\\",
+      "ContentRoot": "F:\\SamanAryaEcommerce\\mvc\\wwwroot\\",
       "BasePath": "_content/MVC",
       "RelativePath": "js/site.js",
       "AssetKind": "All",
@@ -568,10 +568,10 @@
       "OriginalItemSpec": "wwwroot\\js\\site.js"
     },
     {
-      "Identity": "F:\\SamanAryaEcommerce\\MVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "Identity": "F:\\SamanAryaEcommerce\\mvc\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
       "SourceId": "MVC",
       "SourceType": "Discovered",
-      "ContentRoot": "F:\\SamanAryaEcommerce\\MVC\\wwwroot\\",
+      "ContentRoot": "F:\\SamanAryaEcommerce\\mvc\\wwwroot\\",
       "BasePath": "_content/MVC",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.css",
       "AssetKind": "All",
@@ -587,10 +587,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
     },
     {
-      "Identity": "F:\\SamanAryaEcommerce\\MVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "Identity": "F:\\SamanAryaEcommerce\\mvc\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
       "SourceId": "MVC",
       "SourceType": "Discovered",
-      "ContentRoot": "F:\\SamanAryaEcommerce\\MVC\\wwwroot\\",
+      "ContentRoot": "F:\\SamanAryaEcommerce\\mvc\\wwwroot\\",
       "BasePath": "_content/MVC",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.css.map",
       "AssetKind": "All",
@@ -606,10 +606,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
     },
     {
-      "Identity": "F:\\SamanAryaEcommerce\\MVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "Identity": "F:\\SamanAryaEcommerce\\mvc\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
       "SourceId": "MVC",
       "SourceType": "Discovered",
-      "ContentRoot": "F:\\SamanAryaEcommerce\\MVC\\wwwroot\\",
+      "ContentRoot": "F:\\SamanAryaEcommerce\\mvc\\wwwroot\\",
       "BasePath": "_content/MVC",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.min.css",
       "AssetKind": "All",
@@ -625,10 +625,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
     },
     {
-      "Identity": "F:\\SamanAryaEcommerce\\MVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "Identity": "F:\\SamanAryaEcommerce\\mvc\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
       "SourceId": "MVC",
       "SourceType": "Discovered",
-      "ContentRoot": "F:\\SamanAryaEcommerce\\MVC\\wwwroot\\",
+      "ContentRoot": "F:\\SamanAryaEcommerce\\mvc\\wwwroot\\",
       "BasePath": "_content/MVC",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.min.css.map",
       "AssetKind": "All",
@@ -644,10 +644,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
     },
     {
-      "Identity": "F:\\SamanAryaEcommerce\\MVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "Identity": "F:\\SamanAryaEcommerce\\mvc\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
       "SourceId": "MVC",
       "SourceType": "Discovered",
-      "ContentRoot": "F:\\SamanAryaEcommerce\\MVC\\wwwroot\\",
+      "ContentRoot": "F:\\SamanAryaEcommerce\\mvc\\wwwroot\\",
       "BasePath": "_content/MVC",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.rtl.css",
       "AssetKind": "All",
@@ -663,10 +663,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
     },
     {
-      "Identity": "F:\\SamanAryaEcommerce\\MVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "Identity": "F:\\SamanAryaEcommerce\\mvc\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
       "SourceId": "MVC",
       "SourceType": "Discovered",
-      "ContentRoot": "F:\\SamanAryaEcommerce\\MVC\\wwwroot\\",
+      "ContentRoot": "F:\\SamanAryaEcommerce\\mvc\\wwwroot\\",
       "BasePath": "_content/MVC",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.rtl.css.map",
       "AssetKind": "All",
@@ -682,10 +682,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
     },
     {
-      "Identity": "F:\\SamanAryaEcommerce\\MVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "Identity": "F:\\SamanAryaEcommerce\\mvc\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
       "SourceId": "MVC",
       "SourceType": "Discovered",
-      "ContentRoot": "F:\\SamanAryaEcommerce\\MVC\\wwwroot\\",
+      "ContentRoot": "F:\\SamanAryaEcommerce\\mvc\\wwwroot\\",
       "BasePath": "_content/MVC",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css",
       "AssetKind": "All",
@@ -701,10 +701,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
     },
     {
-      "Identity": "F:\\SamanAryaEcommerce\\MVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "Identity": "F:\\SamanAryaEcommerce\\mvc\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
       "SourceId": "MVC",
       "SourceType": "Discovered",
-      "ContentRoot": "F:\\SamanAryaEcommerce\\MVC\\wwwroot\\",
+      "ContentRoot": "F:\\SamanAryaEcommerce\\mvc\\wwwroot\\",
       "BasePath": "_content/MVC",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css.map",
       "AssetKind": "All",
@@ -720,10 +720,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
     },
     {
-      "Identity": "F:\\SamanAryaEcommerce\\MVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "Identity": "F:\\SamanAryaEcommerce\\mvc\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
       "SourceId": "MVC",
       "SourceType": "Discovered",
-      "ContentRoot": "F:\\SamanAryaEcommerce\\MVC\\wwwroot\\",
+      "ContentRoot": "F:\\SamanAryaEcommerce\\mvc\\wwwroot\\",
       "BasePath": "_content/MVC",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.css",
       "AssetKind": "All",
@@ -739,10 +739,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
     },
     {
-      "Identity": "F:\\SamanAryaEcommerce\\MVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "Identity": "F:\\SamanAryaEcommerce\\mvc\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
       "SourceId": "MVC",
       "SourceType": "Discovered",
-      "ContentRoot": "F:\\SamanAryaEcommerce\\MVC\\wwwroot\\",
+      "ContentRoot": "F:\\SamanAryaEcommerce\\mvc\\wwwroot\\",
       "BasePath": "_content/MVC",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.css.map",
       "AssetKind": "All",
@@ -758,10 +758,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
     },
     {
-      "Identity": "F:\\SamanAryaEcommerce\\MVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "Identity": "F:\\SamanAryaEcommerce\\mvc\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
       "SourceId": "MVC",
       "SourceType": "Discovered",
-      "ContentRoot": "F:\\SamanAryaEcommerce\\MVC\\wwwroot\\",
+      "ContentRoot": "F:\\SamanAryaEcommerce\\mvc\\wwwroot\\",
       "BasePath": "_content/MVC",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.min.css",
       "AssetKind": "All",
@@ -777,10 +777,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
     },
     {
-      "Identity": "F:\\SamanAryaEcommerce\\MVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "Identity": "F:\\SamanAryaEcommerce\\mvc\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
       "SourceId": "MVC",
       "SourceType": "Discovered",
-      "ContentRoot": "F:\\SamanAryaEcommerce\\MVC\\wwwroot\\",
+      "ContentRoot": "F:\\SamanAryaEcommerce\\mvc\\wwwroot\\",
       "BasePath": "_content/MVC",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.min.css.map",
       "AssetKind": "All",
@@ -796,10 +796,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
     },
     {
-      "Identity": "F:\\SamanAryaEcommerce\\MVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "Identity": "F:\\SamanAryaEcommerce\\mvc\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
       "SourceId": "MVC",
       "SourceType": "Discovered",
-      "ContentRoot": "F:\\SamanAryaEcommerce\\MVC\\wwwroot\\",
+      "ContentRoot": "F:\\SamanAryaEcommerce\\mvc\\wwwroot\\",
       "BasePath": "_content/MVC",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.rtl.css",
       "AssetKind": "All",
@@ -815,10 +815,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
     },
     {
-      "Identity": "F:\\SamanAryaEcommerce\\MVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "Identity": "F:\\SamanAryaEcommerce\\mvc\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
       "SourceId": "MVC",
       "SourceType": "Discovered",
-      "ContentRoot": "F:\\SamanAryaEcommerce\\MVC\\wwwroot\\",
+      "ContentRoot": "F:\\SamanAryaEcommerce\\mvc\\wwwroot\\",
       "BasePath": "_content/MVC",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.rtl.css.map",
       "AssetKind": "All",
@@ -834,10 +834,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
     },
     {
-      "Identity": "F:\\SamanAryaEcommerce\\MVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "Identity": "F:\\SamanAryaEcommerce\\mvc\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
       "SourceId": "MVC",
       "SourceType": "Discovered",
-      "ContentRoot": "F:\\SamanAryaEcommerce\\MVC\\wwwroot\\",
+      "ContentRoot": "F:\\SamanAryaEcommerce\\mvc\\wwwroot\\",
       "BasePath": "_content/MVC",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css",
       "AssetKind": "All",
@@ -853,10 +853,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
     },
     {
-      "Identity": "F:\\SamanAryaEcommerce\\MVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "Identity": "F:\\SamanAryaEcommerce\\mvc\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
       "SourceId": "MVC",
       "SourceType": "Discovered",
-      "ContentRoot": "F:\\SamanAryaEcommerce\\MVC\\wwwroot\\",
+      "ContentRoot": "F:\\SamanAryaEcommerce\\mvc\\wwwroot\\",
       "BasePath": "_content/MVC",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css.map",
       "AssetKind": "All",
@@ -872,10 +872,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
     },
     {
-      "Identity": "F:\\SamanAryaEcommerce\\MVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "Identity": "F:\\SamanAryaEcommerce\\mvc\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
       "SourceId": "MVC",
       "SourceType": "Discovered",
-      "ContentRoot": "F:\\SamanAryaEcommerce\\MVC\\wwwroot\\",
+      "ContentRoot": "F:\\SamanAryaEcommerce\\mvc\\wwwroot\\",
       "BasePath": "_content/MVC",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.css",
       "AssetKind": "All",
@@ -891,10 +891,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
     },
     {
-      "Identity": "F:\\SamanAryaEcommerce\\MVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "Identity": "F:\\SamanAryaEcommerce\\mvc\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
       "SourceId": "MVC",
       "SourceType": "Discovered",
-      "ContentRoot": "F:\\SamanAryaEcommerce\\MVC\\wwwroot\\",
+      "ContentRoot": "F:\\SamanAryaEcommerce\\mvc\\wwwroot\\",
       "BasePath": "_content/MVC",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.css.map",
       "AssetKind": "All",
@@ -910,10 +910,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
     },
     {
-      "Identity": "F:\\SamanAryaEcommerce\\MVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "Identity": "F:\\SamanAryaEcommerce\\mvc\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
       "SourceId": "MVC",
       "SourceType": "Discovered",
-      "ContentRoot": "F:\\SamanAryaEcommerce\\MVC\\wwwroot\\",
+      "ContentRoot": "F:\\SamanAryaEcommerce\\mvc\\wwwroot\\",
       "BasePath": "_content/MVC",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.min.css",
       "AssetKind": "All",
@@ -929,10 +929,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
     },
     {
-      "Identity": "F:\\SamanAryaEcommerce\\MVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "Identity": "F:\\SamanAryaEcommerce\\mvc\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
       "SourceId": "MVC",
       "SourceType": "Discovered",
-      "ContentRoot": "F:\\SamanAryaEcommerce\\MVC\\wwwroot\\",
+      "ContentRoot": "F:\\SamanAryaEcommerce\\mvc\\wwwroot\\",
       "BasePath": "_content/MVC",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.min.css.map",
       "AssetKind": "All",
@@ -948,10 +948,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
     },
     {
-      "Identity": "F:\\SamanAryaEcommerce\\MVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "Identity": "F:\\SamanAryaEcommerce\\mvc\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
       "SourceId": "MVC",
       "SourceType": "Discovered",
-      "ContentRoot": "F:\\SamanAryaEcommerce\\MVC\\wwwroot\\",
+      "ContentRoot": "F:\\SamanAryaEcommerce\\mvc\\wwwroot\\",
       "BasePath": "_content/MVC",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.rtl.css",
       "AssetKind": "All",
@@ -967,10 +967,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
     },
     {
-      "Identity": "F:\\SamanAryaEcommerce\\MVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "Identity": "F:\\SamanAryaEcommerce\\mvc\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
       "SourceId": "MVC",
       "SourceType": "Discovered",
-      "ContentRoot": "F:\\SamanAryaEcommerce\\MVC\\wwwroot\\",
+      "ContentRoot": "F:\\SamanAryaEcommerce\\mvc\\wwwroot\\",
       "BasePath": "_content/MVC",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.rtl.css.map",
       "AssetKind": "All",
@@ -986,10 +986,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
     },
     {
-      "Identity": "F:\\SamanAryaEcommerce\\MVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "Identity": "F:\\SamanAryaEcommerce\\mvc\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
       "SourceId": "MVC",
       "SourceType": "Discovered",
-      "ContentRoot": "F:\\SamanAryaEcommerce\\MVC\\wwwroot\\",
+      "ContentRoot": "F:\\SamanAryaEcommerce\\mvc\\wwwroot\\",
       "BasePath": "_content/MVC",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css",
       "AssetKind": "All",
@@ -1005,10 +1005,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
     },
     {
-      "Identity": "F:\\SamanAryaEcommerce\\MVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "Identity": "F:\\SamanAryaEcommerce\\mvc\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
       "SourceId": "MVC",
       "SourceType": "Discovered",
-      "ContentRoot": "F:\\SamanAryaEcommerce\\MVC\\wwwroot\\",
+      "ContentRoot": "F:\\SamanAryaEcommerce\\mvc\\wwwroot\\",
       "BasePath": "_content/MVC",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css.map",
       "AssetKind": "All",
@@ -1024,10 +1024,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
     },
     {
-      "Identity": "F:\\SamanAryaEcommerce\\MVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "Identity": "F:\\SamanAryaEcommerce\\mvc\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
       "SourceId": "MVC",
       "SourceType": "Discovered",
-      "ContentRoot": "F:\\SamanAryaEcommerce\\MVC\\wwwroot\\",
+      "ContentRoot": "F:\\SamanAryaEcommerce\\mvc\\wwwroot\\",
       "BasePath": "_content/MVC",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.css",
       "AssetKind": "All",
@@ -1043,10 +1043,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css"
     },
     {
-      "Identity": "F:\\SamanAryaEcommerce\\MVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "Identity": "F:\\SamanAryaEcommerce\\mvc\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
       "SourceId": "MVC",
       "SourceType": "Discovered",
-      "ContentRoot": "F:\\SamanAryaEcommerce\\MVC\\wwwroot\\",
+      "ContentRoot": "F:\\SamanAryaEcommerce\\mvc\\wwwroot\\",
       "BasePath": "_content/MVC",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.css.map",
       "AssetKind": "All",
@@ -1062,10 +1062,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
     },
     {
-      "Identity": "F:\\SamanAryaEcommerce\\MVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "Identity": "F:\\SamanAryaEcommerce\\mvc\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
       "SourceId": "MVC",
       "SourceType": "Discovered",
-      "ContentRoot": "F:\\SamanAryaEcommerce\\MVC\\wwwroot\\",
+      "ContentRoot": "F:\\SamanAryaEcommerce\\mvc\\wwwroot\\",
       "BasePath": "_content/MVC",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.min.css",
       "AssetKind": "All",
@@ -1081,10 +1081,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
     },
     {
-      "Identity": "F:\\SamanAryaEcommerce\\MVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "Identity": "F:\\SamanAryaEcommerce\\mvc\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
       "SourceId": "MVC",
       "SourceType": "Discovered",
-      "ContentRoot": "F:\\SamanAryaEcommerce\\MVC\\wwwroot\\",
+      "ContentRoot": "F:\\SamanAryaEcommerce\\mvc\\wwwroot\\",
       "BasePath": "_content/MVC",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.min.css.map",
       "AssetKind": "All",
@@ -1100,10 +1100,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
     },
     {
-      "Identity": "F:\\SamanAryaEcommerce\\MVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "Identity": "F:\\SamanAryaEcommerce\\mvc\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
       "SourceId": "MVC",
       "SourceType": "Discovered",
-      "ContentRoot": "F:\\SamanAryaEcommerce\\MVC\\wwwroot\\",
+      "ContentRoot": "F:\\SamanAryaEcommerce\\mvc\\wwwroot\\",
       "BasePath": "_content/MVC",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.rtl.css",
       "AssetKind": "All",
@@ -1119,10 +1119,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
     },
     {
-      "Identity": "F:\\SamanAryaEcommerce\\MVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "Identity": "F:\\SamanAryaEcommerce\\mvc\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
       "SourceId": "MVC",
       "SourceType": "Discovered",
-      "ContentRoot": "F:\\SamanAryaEcommerce\\MVC\\wwwroot\\",
+      "ContentRoot": "F:\\SamanAryaEcommerce\\mvc\\wwwroot\\",
       "BasePath": "_content/MVC",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.rtl.css.map",
       "AssetKind": "All",
@@ -1138,10 +1138,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
     },
     {
-      "Identity": "F:\\SamanAryaEcommerce\\MVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "Identity": "F:\\SamanAryaEcommerce\\mvc\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
       "SourceId": "MVC",
       "SourceType": "Discovered",
-      "ContentRoot": "F:\\SamanAryaEcommerce\\MVC\\wwwroot\\",
+      "ContentRoot": "F:\\SamanAryaEcommerce\\mvc\\wwwroot\\",
       "BasePath": "_content/MVC",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.rtl.min.css",
       "AssetKind": "All",
@@ -1157,10 +1157,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
     },
     {
-      "Identity": "F:\\SamanAryaEcommerce\\MVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "Identity": "F:\\SamanAryaEcommerce\\mvc\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
       "SourceId": "MVC",
       "SourceType": "Discovered",
-      "ContentRoot": "F:\\SamanAryaEcommerce\\MVC\\wwwroot\\",
+      "ContentRoot": "F:\\SamanAryaEcommerce\\mvc\\wwwroot\\",
       "BasePath": "_content/MVC",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.rtl.min.css.map",
       "AssetKind": "All",
@@ -1176,10 +1176,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
     },
     {
-      "Identity": "F:\\SamanAryaEcommerce\\MVC\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "Identity": "F:\\SamanAryaEcommerce\\mvc\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
       "SourceId": "MVC",
       "SourceType": "Discovered",
-      "ContentRoot": "F:\\SamanAryaEcommerce\\MVC\\wwwroot\\",
+      "ContentRoot": "F:\\SamanAryaEcommerce\\mvc\\wwwroot\\",
       "BasePath": "_content/MVC",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.bundle.js",
       "AssetKind": "All",
@@ -1195,10 +1195,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
     },
     {
-      "Identity": "F:\\SamanAryaEcommerce\\MVC\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "Identity": "F:\\SamanAryaEcommerce\\mvc\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
       "SourceId": "MVC",
       "SourceType": "Discovered",
-      "ContentRoot": "F:\\SamanAryaEcommerce\\MVC\\wwwroot\\",
+      "ContentRoot": "F:\\SamanAryaEcommerce\\mvc\\wwwroot\\",
       "BasePath": "_content/MVC",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.bundle.js.map",
       "AssetKind": "All",
@@ -1214,10 +1214,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
     },
     {
-      "Identity": "F:\\SamanAryaEcommerce\\MVC\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "Identity": "F:\\SamanAryaEcommerce\\mvc\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
       "SourceId": "MVC",
       "SourceType": "Discovered",
-      "ContentRoot": "F:\\SamanAryaEcommerce\\MVC\\wwwroot\\",
+      "ContentRoot": "F:\\SamanAryaEcommerce\\mvc\\wwwroot\\",
       "BasePath": "_content/MVC",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.bundle.min.js",
       "AssetKind": "All",
@@ -1233,10 +1233,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
     },
     {
-      "Identity": "F:\\SamanAryaEcommerce\\MVC\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "Identity": "F:\\SamanAryaEcommerce\\mvc\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
       "SourceId": "MVC",
       "SourceType": "Discovered",
-      "ContentRoot": "F:\\SamanAryaEcommerce\\MVC\\wwwroot\\",
+      "ContentRoot": "F:\\SamanAryaEcommerce\\mvc\\wwwroot\\",
       "BasePath": "_content/MVC",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.bundle.min.js.map",
       "AssetKind": "All",
@@ -1252,10 +1252,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
     },
     {
-      "Identity": "F:\\SamanAryaEcommerce\\MVC\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "Identity": "F:\\SamanAryaEcommerce\\mvc\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
       "SourceId": "MVC",
       "SourceType": "Discovered",
-      "ContentRoot": "F:\\SamanAryaEcommerce\\MVC\\wwwroot\\",
+      "ContentRoot": "F:\\SamanAryaEcommerce\\mvc\\wwwroot\\",
       "BasePath": "_content/MVC",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.esm.js",
       "AssetKind": "All",
@@ -1271,10 +1271,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
     },
     {
-      "Identity": "F:\\SamanAryaEcommerce\\MVC\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "Identity": "F:\\SamanAryaEcommerce\\mvc\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
       "SourceId": "MVC",
       "SourceType": "Discovered",
-      "ContentRoot": "F:\\SamanAryaEcommerce\\MVC\\wwwroot\\",
+      "ContentRoot": "F:\\SamanAryaEcommerce\\mvc\\wwwroot\\",
       "BasePath": "_content/MVC",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.esm.js.map",
       "AssetKind": "All",
@@ -1290,10 +1290,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
     },
     {
-      "Identity": "F:\\SamanAryaEcommerce\\MVC\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "Identity": "F:\\SamanAryaEcommerce\\mvc\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
       "SourceId": "MVC",
       "SourceType": "Discovered",
-      "ContentRoot": "F:\\SamanAryaEcommerce\\MVC\\wwwroot\\",
+      "ContentRoot": "F:\\SamanAryaEcommerce\\mvc\\wwwroot\\",
       "BasePath": "_content/MVC",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.esm.min.js",
       "AssetKind": "All",
@@ -1309,10 +1309,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
     },
     {
-      "Identity": "F:\\SamanAryaEcommerce\\MVC\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "Identity": "F:\\SamanAryaEcommerce\\mvc\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
       "SourceId": "MVC",
       "SourceType": "Discovered",
-      "ContentRoot": "F:\\SamanAryaEcommerce\\MVC\\wwwroot\\",
+      "ContentRoot": "F:\\SamanAryaEcommerce\\mvc\\wwwroot\\",
       "BasePath": "_content/MVC",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.esm.min.js.map",
       "AssetKind": "All",
@@ -1328,10 +1328,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
     },
     {
-      "Identity": "F:\\SamanAryaEcommerce\\MVC\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "Identity": "F:\\SamanAryaEcommerce\\mvc\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
       "SourceId": "MVC",
       "SourceType": "Discovered",
-      "ContentRoot": "F:\\SamanAryaEcommerce\\MVC\\wwwroot\\",
+      "ContentRoot": "F:\\SamanAryaEcommerce\\mvc\\wwwroot\\",
       "BasePath": "_content/MVC",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.js",
       "AssetKind": "All",
@@ -1347,10 +1347,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js"
     },
     {
-      "Identity": "F:\\SamanAryaEcommerce\\MVC\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "Identity": "F:\\SamanAryaEcommerce\\mvc\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
       "SourceId": "MVC",
       "SourceType": "Discovered",
-      "ContentRoot": "F:\\SamanAryaEcommerce\\MVC\\wwwroot\\",
+      "ContentRoot": "F:\\SamanAryaEcommerce\\mvc\\wwwroot\\",
       "BasePath": "_content/MVC",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.js.map",
       "AssetKind": "All",
@@ -1366,10 +1366,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
     },
     {
-      "Identity": "F:\\SamanAryaEcommerce\\MVC\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "Identity": "F:\\SamanAryaEcommerce\\mvc\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
       "SourceId": "MVC",
       "SourceType": "Discovered",
-      "ContentRoot": "F:\\SamanAryaEcommerce\\MVC\\wwwroot\\",
+      "ContentRoot": "F:\\SamanAryaEcommerce\\mvc\\wwwroot\\",
       "BasePath": "_content/MVC",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.min.js",
       "AssetKind": "All",
@@ -1385,10 +1385,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
     },
     {
-      "Identity": "F:\\SamanAryaEcommerce\\MVC\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "Identity": "F:\\SamanAryaEcommerce\\mvc\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
       "SourceId": "MVC",
       "SourceType": "Discovered",
-      "ContentRoot": "F:\\SamanAryaEcommerce\\MVC\\wwwroot\\",
+      "ContentRoot": "F:\\SamanAryaEcommerce\\mvc\\wwwroot\\",
       "BasePath": "_content/MVC",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.min.js.map",
       "AssetKind": "All",
@@ -1404,10 +1404,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
     },
     {
-      "Identity": "F:\\SamanAryaEcommerce\\MVC\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "Identity": "F:\\SamanAryaEcommerce\\mvc\\wwwroot\\lib\\bootstrap\\LICENSE",
       "SourceId": "MVC",
       "SourceType": "Discovered",
-      "ContentRoot": "F:\\SamanAryaEcommerce\\MVC\\wwwroot\\",
+      "ContentRoot": "F:\\SamanAryaEcommerce\\mvc\\wwwroot\\",
       "BasePath": "_content/MVC",
       "RelativePath": "lib/bootstrap/LICENSE",
       "AssetKind": "All",
@@ -1423,10 +1423,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\LICENSE"
     },
     {
-      "Identity": "F:\\SamanAryaEcommerce\\MVC\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "Identity": "F:\\SamanAryaEcommerce\\mvc\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
       "SourceId": "MVC",
       "SourceType": "Discovered",
-      "ContentRoot": "F:\\SamanAryaEcommerce\\MVC\\wwwroot\\",
+      "ContentRoot": "F:\\SamanAryaEcommerce\\mvc\\wwwroot\\",
       "BasePath": "_content/MVC",
       "RelativePath": "lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.js",
       "AssetKind": "All",
@@ -1442,10 +1442,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
     },
     {
-      "Identity": "F:\\SamanAryaEcommerce\\MVC\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "Identity": "F:\\SamanAryaEcommerce\\mvc\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
       "SourceId": "MVC",
       "SourceType": "Discovered",
-      "ContentRoot": "F:\\SamanAryaEcommerce\\MVC\\wwwroot\\",
+      "ContentRoot": "F:\\SamanAryaEcommerce\\mvc\\wwwroot\\",
       "BasePath": "_content/MVC",
       "RelativePath": "lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js",
       "AssetKind": "All",
@@ -1461,10 +1461,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
     },
     {
-      "Identity": "F:\\SamanAryaEcommerce\\MVC\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "Identity": "F:\\SamanAryaEcommerce\\mvc\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
       "SourceId": "MVC",
       "SourceType": "Discovered",
-      "ContentRoot": "F:\\SamanAryaEcommerce\\MVC\\wwwroot\\",
+      "ContentRoot": "F:\\SamanAryaEcommerce\\mvc\\wwwroot\\",
       "BasePath": "_content/MVC",
       "RelativePath": "lib/jquery-validation-unobtrusive/LICENSE.txt",
       "AssetKind": "All",
@@ -1480,10 +1480,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
     },
     {
-      "Identity": "F:\\SamanAryaEcommerce\\MVC\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "Identity": "F:\\SamanAryaEcommerce\\mvc\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
       "SourceId": "MVC",
       "SourceType": "Discovered",
-      "ContentRoot": "F:\\SamanAryaEcommerce\\MVC\\wwwroot\\",
+      "ContentRoot": "F:\\SamanAryaEcommerce\\mvc\\wwwroot\\",
       "BasePath": "_content/MVC",
       "RelativePath": "lib/jquery-validation/dist/additional-methods.js",
       "AssetKind": "All",
@@ -1499,10 +1499,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js"
     },
     {
-      "Identity": "F:\\SamanAryaEcommerce\\MVC\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "Identity": "F:\\SamanAryaEcommerce\\mvc\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
       "SourceId": "MVC",
       "SourceType": "Discovered",
-      "ContentRoot": "F:\\SamanAryaEcommerce\\MVC\\wwwroot\\",
+      "ContentRoot": "F:\\SamanAryaEcommerce\\mvc\\wwwroot\\",
       "BasePath": "_content/MVC",
       "RelativePath": "lib/jquery-validation/dist/additional-methods.min.js",
       "AssetKind": "All",
@@ -1518,10 +1518,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js"
     },
     {
-      "Identity": "F:\\SamanAryaEcommerce\\MVC\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "Identity": "F:\\SamanAryaEcommerce\\mvc\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
       "SourceId": "MVC",
       "SourceType": "Discovered",
-      "ContentRoot": "F:\\SamanAryaEcommerce\\MVC\\wwwroot\\",
+      "ContentRoot": "F:\\SamanAryaEcommerce\\mvc\\wwwroot\\",
       "BasePath": "_content/MVC",
       "RelativePath": "lib/jquery-validation/dist/jquery.validate.js",
       "AssetKind": "All",
@@ -1537,10 +1537,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js"
     },
     {
-      "Identity": "F:\\SamanAryaEcommerce\\MVC\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "Identity": "F:\\SamanAryaEcommerce\\mvc\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
       "SourceId": "MVC",
       "SourceType": "Discovered",
-      "ContentRoot": "F:\\SamanAryaEcommerce\\MVC\\wwwroot\\",
+      "ContentRoot": "F:\\SamanAryaEcommerce\\mvc\\wwwroot\\",
       "BasePath": "_content/MVC",
       "RelativePath": "lib/jquery-validation/dist/jquery.validate.min.js",
       "AssetKind": "All",
@@ -1556,10 +1556,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
     },
     {
-      "Identity": "F:\\SamanAryaEcommerce\\MVC\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "Identity": "F:\\SamanAryaEcommerce\\mvc\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
       "SourceId": "MVC",
       "SourceType": "Discovered",
-      "ContentRoot": "F:\\SamanAryaEcommerce\\MVC\\wwwroot\\",
+      "ContentRoot": "F:\\SamanAryaEcommerce\\mvc\\wwwroot\\",
       "BasePath": "_content/MVC",
       "RelativePath": "lib/jquery-validation/LICENSE.md",
       "AssetKind": "All",
@@ -1575,10 +1575,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\LICENSE.md"
     },
     {
-      "Identity": "F:\\SamanAryaEcommerce\\MVC\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "Identity": "F:\\SamanAryaEcommerce\\mvc\\wwwroot\\lib\\jquery\\dist\\jquery.js",
       "SourceId": "MVC",
       "SourceType": "Discovered",
-      "ContentRoot": "F:\\SamanAryaEcommerce\\MVC\\wwwroot\\",
+      "ContentRoot": "F:\\SamanAryaEcommerce\\mvc\\wwwroot\\",
       "BasePath": "_content/MVC",
       "RelativePath": "lib/jquery/dist/jquery.js",
       "AssetKind": "All",
@@ -1594,10 +1594,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery\\dist\\jquery.js"
     },
     {
-      "Identity": "F:\\SamanAryaEcommerce\\MVC\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "Identity": "F:\\SamanAryaEcommerce\\mvc\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
       "SourceId": "MVC",
       "SourceType": "Discovered",
-      "ContentRoot": "F:\\SamanAryaEcommerce\\MVC\\wwwroot\\",
+      "ContentRoot": "F:\\SamanAryaEcommerce\\mvc\\wwwroot\\",
       "BasePath": "_content/MVC",
       "RelativePath": "lib/jquery/dist/jquery.min.js",
       "AssetKind": "All",
@@ -1613,10 +1613,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery\\dist\\jquery.min.js"
     },
     {
-      "Identity": "F:\\SamanAryaEcommerce\\MVC\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "Identity": "F:\\SamanAryaEcommerce\\mvc\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
       "SourceId": "MVC",
       "SourceType": "Discovered",
-      "ContentRoot": "F:\\SamanAryaEcommerce\\MVC\\wwwroot\\",
+      "ContentRoot": "F:\\SamanAryaEcommerce\\mvc\\wwwroot\\",
       "BasePath": "_content/MVC",
       "RelativePath": "lib/jquery/dist/jquery.min.map",
       "AssetKind": "All",
@@ -1632,10 +1632,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery\\dist\\jquery.min.map"
     },
     {
-      "Identity": "F:\\SamanAryaEcommerce\\MVC\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "Identity": "F:\\SamanAryaEcommerce\\mvc\\wwwroot\\lib\\jquery\\LICENSE.txt",
       "SourceId": "MVC",
       "SourceType": "Discovered",
-      "ContentRoot": "F:\\SamanAryaEcommerce\\MVC\\wwwroot\\",
+      "ContentRoot": "F:\\SamanAryaEcommerce\\mvc\\wwwroot\\",
       "BasePath": "_content/MVC",
       "RelativePath": "lib/jquery/LICENSE.txt",
       "AssetKind": "All",

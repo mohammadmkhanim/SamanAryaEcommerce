@@ -16,11 +16,11 @@ namespace Domain.Entities
         [Required]
         public DateTime DateTime { get; set; }
 
-        public List<Product> Products { get; set; }
-
         //relations
         [ForeignKey(nameof(Order))]
         public int OrderId { get; set; }
         public Order Order { get; set; }
+
+        public List<Product> Products { get; set; }
     }
 }

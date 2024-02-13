@@ -17,6 +17,12 @@ namespace Infrastructures.Data.Repositories
             _dbContext = dbContext;
         }
 
+        public async Task<List<User>> GetAllAsync()
+        {
+            return await _dbContext.Users.ToListAsync();
+        }
+
+
         public async Task AddAsync(User user)
         {
             await _dbContext.Users.AddAsync(user);

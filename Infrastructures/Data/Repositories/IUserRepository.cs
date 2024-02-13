@@ -9,7 +9,7 @@ namespace Infrastructures.Data.Repositories
     public interface IUserRepository
     {
         // Task<Product> GetByIdAsync(int id);
-        // Task<List<Product>> GetAllAsync();
+        Task<List<User>> GetAllAsync();
         // Task<List<Product>> GetAllAsync(int[] ids);
         Task AddAsync(User user);
         Task<bool> ExistUsernameAsync(string username);

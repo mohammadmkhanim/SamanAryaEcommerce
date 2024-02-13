@@ -14,6 +14,7 @@ namespace Infrastructures.Data.UnitOfWorks
         private IOrderRepository _orderRepository;
         private RoleRepository _roleRepository;
         private UserRepository _userRepository;
+        private OrderDetailsRepository _orderDetailsRepository;
 
         public UnitOfWork(SamanAryaEcommerceDbContext dbContext)
         {
@@ -23,6 +24,11 @@ namespace Infrastructures.Data.UnitOfWorks
         public IProductRepository ProductRepository
         {
             get { return _productRepository ??= new ProductRepository(_dbContext); }
+        }
+
+        public IOrderDetailsRepository OrderDetailsRepository
+        {
+            get { return _orderDetailsRepository ??= new OrderDetailsRepository(_dbContext); }
         }
 
         public IUserRepository UserRepository

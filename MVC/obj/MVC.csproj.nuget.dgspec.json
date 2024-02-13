@@ -1,7 +1,7 @@
 {
   "format": 1,
   "restore": {
-    "F:\\SamanAryaEcommerce\\MVC\\MVC.csproj": {}
+    "F:\\SamanAryaEcommerce\\mvc\\MVC.csproj": {}
   },
   "projects": {
     "F:\\SamanAryaEcommerce\\Application\\Application.csproj": {
@@ -207,14 +207,14 @@
         }
       }
     },
-    "F:\\SamanAryaEcommerce\\MVC\\MVC.csproj": {
+    "F:\\SamanAryaEcommerce\\mvc\\MVC.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "F:\\SamanAryaEcommerce\\MVC\\MVC.csproj",
+        "projectUniqueName": "F:\\SamanAryaEcommerce\\mvc\\MVC.csproj",
         "projectName": "MVC",
-        "projectPath": "F:\\SamanAryaEcommerce\\MVC\\MVC.csproj",
+        "projectPath": "F:\\SamanAryaEcommerce\\mvc\\MVC.csproj",
         "packagesPath": "C:\\Users\\moham\\.nuget\\packages\\",
-        "outputPath": "F:\\SamanAryaEcommerce\\MVC\\obj\\",
+        "outputPath": "F:\\SamanAryaEcommerce\\mvc\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\moham\\AppData\\Roaming\\NuGet\\NuGet.Config",

@@ -1,6 +1,6 @@
 using System.ComponentModel.DataAnnotations;
 
-namespace MVC.Models.Products;
+namespace MVC.Models.Orders;
 
 public class CreateOrderViewModel
 {

@@ -8,18 +8,14 @@ using MVC.Models.Products;
 
 namespace MVC.Controllers;
 
-public class HomeController : Controller
+public class HomeController : BaseController<HomeController>
 {
-    private readonly ILogger<HomeController> _logger;
-    private readonly IMediator _mediator;
-    private readonly IMapper _mapper;
 
-    public HomeController(ILogger<HomeController> logger, IMediator mediator, IMapper mapper)
-    {
-        _logger = logger;
-        _mediator = mediator;
-        _mapper = mapper;
-    }
+    public HomeController(
+                              ILogger<HomeController> logger,
+                              IMediator mediator,
+                              IMapper mapper
+                              ) : base(logger, mediator, mapper) { }
 
     public async Task<IActionResult> IndexAsync()
     {

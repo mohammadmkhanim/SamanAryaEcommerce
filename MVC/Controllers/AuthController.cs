@@ -12,18 +12,14 @@ using MVC.Services;
 
 namespace MVC.Controllers;
 
-public class AuthController : Controller
+public class AuthController : BaseController<AuthController>
 {
-    private readonly ILogger<AuthController> _logger;
-    private readonly IMediator _mediator;
-    private readonly IMapper _mapper;
 
-    public AuthController(ILogger<AuthController> logger, IMediator mediator, IMapper mapper)
-    {
-        _logger = logger;
-        _mediator = mediator;
-        _mapper = mapper;
-    }
+    public AuthController(
+                              ILogger<AuthController> logger,
+                              IMediator mediator,
+                              IMapper mapper
+                              ) : base(logger, mediator, mapper) { }
 
     public IActionResult Register()
     {

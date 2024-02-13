@@ -23,5 +23,8 @@ namespace Domain.Entities
         [Display(Name = "عکس")]
         [Required]
         public string ImageName { get; set; }
+
+        //relations
+        public List<OrderDetail> OrderDetails { get; set; }
     }
 }

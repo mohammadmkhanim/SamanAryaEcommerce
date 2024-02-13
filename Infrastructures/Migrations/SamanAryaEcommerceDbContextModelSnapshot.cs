@@ -78,15 +78,10 @@ namespace Infrastructures.Migrations
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
-                    b.Property<int?>("OrderDetailId")
-                        .HasColumnType("int");
-
                     b.Property<double>("Price")
                         .HasColumnType("float");
 
                     b.HasKey("Id");
-
-                    b.HasIndex("OrderDetailId");
 
                     b.ToTable("Products");
                 });
@@ -153,6 +148,21 @@ namespace Infrastructures.Migrations
                     b.ToTable("UserRoles");
                 });
 
+            modelBuilder.Entity("OrderDetailProduct", b =>
+                {
+                    b.Property<int>("OrderDetailsId")
+                        .HasColumnType("int");
+
+                    b.Property<int>("ProductsId")
+                        .HasColumnType("int");
+
+                    b.HasKey("OrderDetailsId", "ProductsId");
+
+                    b.HasIndex("ProductsId");
+
+                    b.ToTable("OrderDetailProduct");
+                });
+
             modelBuilder.Entity("Domain.Entities.Order", b =>
                 {
                     b.HasOne("Domain.Entities.User", "User")
@@ -175,13 +185,6 @@ namespace Infrastructures.Migrations
                     b.Navigation("Order");
                 });
 
-            modelBuilder.Entity("Domain.Entities.Product", b =>
-                {
-                    b.HasOne("Domain.Entities.OrderDetail", null)
-                        .WithMany("Products")
-                        .HasForeignKey("OrderDetailId");
-                });
-
             modelBuilder.Entity("Domain.Entities.UserRole", b =>
                 {
                     b.HasOne("Domain.Entities.Role", "Role")
@@ -201,15 +204,25 @@ namespace Infrastructures.Migrations
                     b.Navigation("User");
                 });
 
+            modelBuilder.Entity("OrderDetailProduct", b =>
+                {
+                    b.HasOne("Domain.Entities.OrderDetail", null)
+                        .WithMany()
+                        .HasForeignKey("OrderDetailsId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.HasOne("Domain.Entities.Product", null)
+                        .WithMany()
+                        .HasForeignKey("ProductsId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+                });
+
             modelBuilder.Entity("Domain.Entities.Order", b =>
                 {
                     b.Navigation("OrderDetail")
                         .IsRequired();
-                });
-
-            modelBuilder.Entity("Domain.Entities.OrderDetail", b =>
-                {
-                    b.Navigation("Products");
                 });
 #pragma warning restore 612, 618
         }

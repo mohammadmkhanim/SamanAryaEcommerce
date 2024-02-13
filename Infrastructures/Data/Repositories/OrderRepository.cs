@@ -17,6 +17,11 @@ namespace Infrastructures.Data.Repositories
             _dbContext = dbContext;
         }
 
+        public async Task<List<Order>> GetAllAsync()
+        {
+            return await _dbContext.Orders.Include(o => o.User).Include(o => o.OrderDetail).ToListAsync();
+        }
+
         public async Task AddAsync(Order order)
         {
             await _dbContext.Orders.AddAsync(order);

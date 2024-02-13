@@ -3,6 +3,8 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Runtime.InteropServices;
 using System.Threading.Tasks;
+using Application.Dtos.OrderDetails;
+using Application.Dtos.Orders;
 using Application.Dtos.Products;
 using Application.Dtos.Roles;
 using Application.Dtos.Users;
@@ -23,6 +25,10 @@ namespace Application.Services
             CreateMap<User, UserDto>().ReverseMap();
 
             CreateMap<Role, RoleDto>().ReverseMap();
+
+            CreateMap<Order, OrderDto>().ReverseMap();
+
+            CreateMap<OrderDetail, OrderDetailDto>().ReverseMap();
         }
     }
 }
